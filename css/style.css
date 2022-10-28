@@ -1,0 +1,94 @@
+/*Font Family start*/
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+
+@font-face{
+	src: url(../fonts/Roboto-Medium.ttf);
+	font-family: Roboto-Medium;
+}
+
+@font-face{
+	src: url(../fonts/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+
+@font-face{
+	src: url(../fonts/Lato-Medium.ttf);
+	font-family: Lato-Medium;
+}
+
+@font-face{
+	src: url(../fonts/Lato-Semibold.ttf);
+	font-family: Lato-Semibold;
+}
+
+@font-face{
+	src: url(../fonts/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+/*Font Family end*/
+
+/*Common CSS start*/
+body{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/*Common CSS end*/
+
+/*Header CSS start*/
+header{
+	padding: 12px 0;
+	border: 1px solid #8e8e8e;
+}
+.custom_nav{}
+.logo{
+	font-family: Lato-Medium;
+	font-size: 30px;
+	font-weight: 500;
+	color: #333333;
+	text-transform: uppercase;
+}
+.menu{}
+.menu ul li a{
+	margin: 0 15px;
+	font-family: Lato-Regular;
+	color: #8e8e8e !important;
+	text-transform: uppercase;
+}
+.menu ul li a:hover {
+	color: #333333 !important;
+}
+.btn_dd{
+	color: #8e8e8e;
+	border: 0 !important;
+}
+.btn_dd::after{
+	display: none;
+}
+.dd_menu {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+}
+.dd_menu[data-bs-popper] {
+    top: 50px;
+    left: -360px;
+    margin-top: 0;
+}
+.dd_input{
+	border: 0;
+}
+.dd_input:focus {
+    color: #8e8e8e;
+    border-color: transparent;
+    box-shadow: none;
+}
+.dd_search{
+	border: 0 !important;
+}
+/*Header CSS end*/
